@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import { CustomButton, CustomInput, PageHOC } from '../components';
+
 import { useGlobalContext } from '../context';
+import { CustomButton,CustomInput,PageHOC } from '../components';
 
 const Home = () => {
   const { contract, walletAddress, gameData, setShowAlert, setErrorMessage } = useGlobalContext();

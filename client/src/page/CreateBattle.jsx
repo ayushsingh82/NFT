@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 import styles from '../styles';
 import { useGlobalContext } from '../context';
-import { CustomButton, CustomInput, GameLoad, PageHOC } from '../components';
+import { CustomButton, CustomInput, PageHOC } from '../components';
 
 const CreateBattle = () => {
   const { contract, gameData, battleName, setBattleName, setErrorMessage } = useGlobalContext();
