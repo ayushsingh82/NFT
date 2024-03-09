@@ -30,12 +30,18 @@ export default {
   //     accounts: [process.env.PRIVATE_KEY],
   //   },
     networks: {
-      scrollSepolia: {
-        url: "https://sepolia-rpc.scroll.io/" || "",
-        // gasPrice: 225000000000,
-        // chainId: 43113,
-        accounts: [process.env.PRIVATE_KEY],
-      },
+      // scrollSepolia: {
+      //   url: "https://sepolia-rpc.scroll.io/" || "",
+      //   gasPrice: 225000000000,
+      //   chainId: 43113,
+      //   accounts: [process.env.PRIVATE_KEY],
+      // },
+     
+        shardeum:{
+          url:"https://sphinx.shardeum.org",
+          chainId:8082,
+          accounts: [process.env.PRIVATE_KEY],
+        },
     // subnet: {
     //   url: process.env.NODE_URL,
     //   chainId: Number(process.env.CHAIN_ID),
