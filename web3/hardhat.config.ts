@@ -22,31 +22,13 @@ export default {
       },
     },
   },
-  // networks: {
-  //   fuji: {
-  //     url: 'https://api.avax-test.network/ext/bc/C/rpc',
-  //     gasPrice: 225000000000,
-  //     chainId: 43113,
-  //     accounts: [process.env.PRIVATE_KEY],
-  //   },
-    networks: {
-      // scrollSepolia: {
-      //   url: "https://sepolia-rpc.scroll.io/" || "",
-      //   gasPrice: 225000000000,
-      //   chainId: 43113,
-      //   accounts: [process.env.PRIVATE_KEY],
-      // },
-     
-        // shardeum:{
-        //   url:"https://sphinx.shardeum.org",
-        //   chainId:8082,
-        //   accounts: [process.env.PRIVATE_KEY],
-        // },
-        sepolia:{
-   url:"https://sepolia.infura.io/v3/",
-   chainId:11155111,
-   accounts: [process.env.PRIVATE_KEY],
-        },
+  networks: {
+    fuji: {
+      url: 'https://api.avax-test.network/ext/bc/C/rpc',
+      gasPrice: 225000000000,
+      chainId: 43113,
+      accounts: [process.env.PRIVATE_KEY],
+    },
     // subnet: {
     //   url: process.env.NODE_URL,
     //   chainId: Number(process.env.CHAIN_ID),
